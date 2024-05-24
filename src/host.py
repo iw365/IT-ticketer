@@ -20,6 +20,7 @@ class Host:
         
         # IDK if this will work, the self.after will only work if i add UI, but i am not sure if this means it will only check
         # if there is a message exactly when the after is called, or if it will recieve all messages and only show them when after is called
+        # may need to implement a queue/backlog system, and then grab the messages from the queue each time after is called
         
         # self.after(2000, self.receive_messages)
         # print("Checking...")
